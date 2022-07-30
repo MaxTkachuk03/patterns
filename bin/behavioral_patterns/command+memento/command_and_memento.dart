@@ -1,4 +1,3 @@
-
 void main(List<String> args) {
   Costumer costumer = Costumer(); 
   WaiterCommand waiter = WaiterCommand(costumer);

@@ -1,4 +1,3 @@
-
 void main(List<String> args) {
   SingletonSpace space  = SingletonSpace();
   print(space);
@@ -8,7 +7,6 @@ void main(List<String> args) {
   print(newspace);
   print("-"*15);
   print(identical(space, newspace));
-
 }
 
 class SingletonSpace{
@@ -27,5 +25,4 @@ class SingletonSpace{
   String toString() {
     return "Зірка: $star\nПланета: $planet";
   }
-
 }

@@ -25,8 +25,8 @@ class CoachContext{
     strtegy = str;
   }
   void doSomething(List<int> numb){
-    strtegy!.execute();
-    strtegy!.sorrt(numb);
+    strtegy?.execute();
+    strtegy?.sorrt(numb);
   }
 }
 
